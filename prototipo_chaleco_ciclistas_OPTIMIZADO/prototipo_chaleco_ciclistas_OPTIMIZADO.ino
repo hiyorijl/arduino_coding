@@ -28,7 +28,7 @@ void loop(){
     for(estePin = 0; estePin < numLeds ; estePin++){
       digitalWrite(led[estePin], HIGH);
     }
-    delay(tiempoRet)
+    delay(tiempoRet);
 
     for(estePin = 0 ; estePin < numLeds ; estePin++){
       digitalWrite(led[estePin], LOW);
@@ -36,3 +36,5 @@ void loop(){
     delay(tiempoRet);
   }
 }
+
+// Repoz
