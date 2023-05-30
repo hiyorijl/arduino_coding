@@ -2,8 +2,8 @@
 // Realiza el encendido de 10 LEDS hacia la derecha (forma de flecha)
 
 // Variables
-int led[] = {4,5,6,7,8,9,10,11,12,13}
-int tiempoRet = 400
+int led[] = {3,4,5,6,7,8,9,10,11,12,13};
+int tiempoRet = 400;
 
 // Función setup: numbers of LEDs
 void setup(){
@@ -17,24 +17,11 @@ void setup(){
   pinMode(led[7], OUTPUT);
   pinMode(led[8], OUTPUT);
   pinMode(led[9], OUTPUT);  
+  pinMode(led[10], OUTPUT);  
 }
 
 // Función loop: indicates active LEDs
 void loop(){
-  digitalWrite(led[0], HIGH);
-  digitalWrite(led[8], HIGH);
-  digitalWrite(led[6], HIGH);
-  delay(tiempoRet);
-  digitalWrite(led[0], LOW);
-  digitalWrite(led[8], LOW);
-  digitalWrite(led[6], LOW);
-  digitalWrite(led[1], HIGH);
-  digitalWrite(led[9], HIGH);
-  digitalWrite(led[5], HIGH);
-  delay(tiempoRet);
-  digitalWrite(led[1], LOW);
-  digitalWrite(led[9], LOW);
-  digitalWrite(led[5], LOW);
   digitalWrite(led[2], HIGH);
   digitalWrite(led[3], HIGH);
   digitalWrite(led[4], HIGH);
@@ -42,5 +29,19 @@ void loop(){
   digitalWrite(led[2], LOW);
   digitalWrite(led[3], LOW);
   digitalWrite(led[4], LOW);
-  delay(tiempoRet)
+  digitalWrite(led[5], HIGH);
+  digitalWrite(led[6], HIGH);
+  digitalWrite(led[7], HIGH);
+  delay(tiempoRet);
+  digitalWrite(led[5], LOW);
+  digitalWrite(led[6], LOW);
+  digitalWrite(led[7], LOW);
+  digitalWrite(led[8], HIGH);
+  digitalWrite(led[9], HIGH);
+  digitalWrite(led[10], HIGH);
+  delay(tiempoRet);
+  digitalWrite(led[8], LOW);
+  digitalWrite(led[9], LOW);
+  digitalWrite(led[10], LOW);
+  delay(tiempoRet);
 }
