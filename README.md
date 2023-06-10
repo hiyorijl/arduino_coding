@@ -25,7 +25,7 @@ The document for materials and the whole course on Coursera is on Spanish. On th
     - [Practical Electronics for Inventors  book amazon](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541)
 
 ### Environment
-The whole course is just **2 examples** used as intro projects for Arduino since the projects is just **C++** code with **Arduino libraries** using the Arduino IDE (`choco install arduino` on Windows); the necessary frameworks come with the IDE. I don't have experience with other IDEs or envs for making Arduino hardware / framework work *yet* but some might be interested on [PlatformIO IDE for VSCode](https://github.com/platformio/platformio-vscode-ide).
+The whole course is just **2 examples** used as intro projects for Arduino since the projects is just **C++** code with **Arduino libraries** using the **Arduino IDE** (`choco install arduino` on Windows); the necessary frameworks come with the IDE. I don't have experience with other IDEs or envs for making Arduino hardware / framework work *yet* but some might be interested on [PlatformIO IDE for VSCode](https://github.com/platformio/platformio-vscode-ide).
 
 ## Schematics for IO pin numbers on Arduino UNO
 This code is originally used for an Arduino UNO with the following schematic diagram for the IO-pin-numbers [![Armado-del-prototipo-de-chaleco-para-ciclistas-2023-06-03.png](https://i.postimg.cc/26Qkj8BZ/Armado-del-prototipo-de-chaleco-para-ciclistas-2023-06-03.png)](https://postimg.cc/Q9MG0Dm8)
